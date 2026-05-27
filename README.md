@@ -15,18 +15,28 @@ Spring Legacy 기반의 학생 성적 관리 시스템 프로젝트입니다.
 
 ---
 
+## 개발 환경
+
+* OS : Ubuntu 24.04 LTS
+* Java : 11
+* Spring Framework : 5.3.31
+* JSP : 2.3
+* PostgreSQL : 15
+* Maven : 3.x
+* Docker : 29.4.0
+* Docker Compose : v5.1.3
+* Tomcat : 9
+
+---
+
 ## 기술 스택
 
-* Java 11
-* Spring Framework 5.3.31 (Spring MVC)
-* JSP 2.3
+* Spring MVC
+* JSP
 * JdbcTemplate
-* PostgreSQL 15
-* Maven 3.x
-* Docker version 29.4.0
-* Docker Compose v5.1.3
-* Tomcat 9
-
+* PostgreSQL
+* Docker / Docker Compose
+* REST API
 
 ---
 
@@ -60,16 +70,16 @@ Spring Legacy 기반의 학생 성적 관리 시스템 프로젝트입니다.
 
 ## Docker 실행 방법
 
-```bash
+```bash id="uj7k2s"
 mvn clean package
-docker compose up --build -d  
+docker compose up --build -d
 ```
 
 ---
 
 ## 실행 주소
 
-```text
+```text id="t0w4pe"
 http://localhost:8282
 ```
 
