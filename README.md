@@ -18,12 +18,15 @@ Spring Legacy 기반의 학생 성적 관리 시스템 프로젝트입니다.
 ## 기술 스택
 
 * Java 11
-* Spring MVC
-* JSP
+* Spring Framework 5.3.31 (Spring MVC)
+* JSP 2.3
 * JdbcTemplate
-* PostgreSQL
-* Maven
-* Docker / Docker Compose
+* PostgreSQL 15
+* Maven 3.x
+* Docker version 29.4.0
+* Docker Compose v5.1.3
+* Tomcat 9
+
 
 ---
 
